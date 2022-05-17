@@ -25,20 +25,18 @@ request.interceptors.response.use(
         console.log(err);
     }
 );
-
-
 const chainInfoMap = {
     BNB: {
         link: "https://bnb.openleverage.finance/api",
-        oleAddress: ""
+        oleAddress: "0xa865197a84e780957422237b5d152772654341f3"
     },
     ETH: {
         link: "https://eth.openleverage.finance/api",
-        oleAddress: ""
+        oleAddress: "0x92CfbEC26C206C90aeE3b7C66A9AE673754FaB7e"
     },
     KCC: {
         link: "https://kcc.openleverage.finance/api",
-        oleAddress: ""
+        oleAddress: "0x1ccca1ce62c62f7be95d4a67722a8fdbed6eecb4"
     },
 }
 
